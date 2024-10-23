@@ -45,11 +45,11 @@
             android:layout_height="match_parent"
             android:inputType="textPassword"
             />
-        <!--com.example.ddm_nativo.componente_customizado.MeuEditText
+        <!--com.example.ddm_nativo_20242.componente_customizado.MeuEditText
             android:id="@+id/campoSenha"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:hint="Nome aqui" /-->
+            android:hint="Nome aqui" -->
     </GridLayout>
 
     <Button
