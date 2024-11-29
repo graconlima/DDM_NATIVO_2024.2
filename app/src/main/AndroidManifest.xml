@@ -12,14 +12,81 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DDM_NATIVO_20242"
         tools:targetApi="31">
-
         <activity
-            android:name=".interface_grafica.ExemploLayout"
+            android:name=".threads.mensagem_handler.MensagemHandler"
+            android:exported="true" />
+        <activity
+            android:name=".threads.exemplo_handler.ExemploHandler"
+            android:exported="true" />
+        <activity
+            android:name=".threads.exemplo_01.ExThreadInicial"
+            android:exported="true" />
+        <activity
+            android:name=".threads.ExThread"
+            android:exported="true" />
+        <activity
+            android:name=".intencoes.ExLogado_Ex5"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="Chamar Tela Saudacao" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".intencoes.ExIntent_Ex1"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".intencoes.EscolherContatoNovo_Ex2"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".intencoes.EscolherContatoAntigo_Ex2"
+            android:exported="true" >
+
+        </activity>
+        <activity
+            android:name=".intencoes.AbrirTela_Ex3"
+            android:exported="true" />
+        <activity
+            android:name=".intencoes.TelaASerAberta_Ex3"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="ABRIR_TELA2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".intencoes.TelaRecebeParametros_Ex4"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="com.example.graco.exintent.Tela" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".intencoes.TelaEnviaParametros_Ex4"
+            android:exported="true" />
+        <activity
+            android:name=".intencoes.ExLogin_Ex5"
+            android:configChanges="orientation"
+            android:exported="true" />
+
+        <activity
+            android:name=".componente_customizado_baixo_nivel.ComponenteCustomizadoBaixoNivel"
+            android:exported="true" />
+        <activity
+            android:name=".interface_grafica.ExemploLayout"
+            android:exported="true">
+
         </activity>
         <activity
             android:name=".introducao.CicloDeVidaAtividadeLOG"

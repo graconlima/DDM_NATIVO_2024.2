@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <TextView
+        android:text="Tela de Envio de Parametros"
+        android:layout_height="50dp"
+        android:layout_width="400dp"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:id="@+id/botao"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="ENVIAR!"
+        />
+</LinearLayout>
