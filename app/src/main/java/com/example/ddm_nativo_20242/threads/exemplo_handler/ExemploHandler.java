@@ -17,7 +17,7 @@ public class ExemploHandler extends AppCompatActivity {
         setContentView(R.layout.activity_exemplo_handler);
 
         //exemplo 1
-        /*final Handler h = new Handler(getMainLooper());
+        final Handler h = new Handler(getMainLooper());
         new Thread(){
             public void run(){
                 h.post(new Runnable() {
@@ -27,10 +27,10 @@ public class ExemploHandler extends AppCompatActivity {
                     }
                 });
             }
-        }.start();*/
+        }.start();
 
         //exemplo 2
-        new Thread(){
+        /*new Thread(){
             public void run() {
                 runOnUiThread(
                         new Runnable() {
@@ -40,7 +40,7 @@ public class ExemploHandler extends AppCompatActivity {
                         }
                 );
             }
-        }.start();
+        }.start();*/
 
     }
 }
