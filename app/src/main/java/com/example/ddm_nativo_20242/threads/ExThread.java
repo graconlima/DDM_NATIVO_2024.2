@@ -16,7 +16,6 @@ public class ExThread extends AppCompatActivity {
         ThreadExemplo t1 = new ThreadExemplo();
         ThreadExemplo t2 = new ThreadExemplo();
 
-
         t1.TEMPO = 500;
         t1.start();
 
